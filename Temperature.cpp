@@ -25,7 +25,7 @@ Answer = 5 * (Value1 - 32)/9;       /*Makes the conversion from Farenheit to
                                       */
 
 cout << "A temperature of "; cout << Value1; cout << " degrees Fahrenheit is ";
-cout << Answer; cout << " in Celsus" <<endl; /* Using ; to separate each
+cout << Answer; cout << " in Celsus." <<endl; /* Using ; to separate each
                                                 cout comand, with the exception
                                                 of endl which needs no ; prior
                                                 to it
@@ -61,12 +61,12 @@ if (Answer <= 100) {     /* first time using if conditioning comand, it is
 
 
 
-  cout << "Water does NOT boil at this temperature (under typical conditions)."
+  cout << "Which means water does NOT boil at this temperature (under typical conditions)."
   <<endl;           //action if condition is true
 
 } else {
 
-  cout << "Water does boil at this temperature (under typical conditions)."
+  cout << "Which means water does boil at this temperature (under typical conditions)."
   <<endl;           //action if condition is false
 
 }
