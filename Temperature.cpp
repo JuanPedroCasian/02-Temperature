@@ -1,3 +1,9 @@
+/*
+Temperature.cpp
+Aug 12, 2017
+Juan Casian
+*/
+
 #include <iostream>           //includes input and output conmands
 
 using namespace std;   //makes it unnecesary to write std:: before commands
@@ -7,6 +13,8 @@ int main () {           //main proces of the program
  double Value1, Answer;         /* declaration of a double value, which is a
                                   number with decimals. (Ex: 3.1416)
                                   */
+
+
 
 cout << "Write a temperature in Farenheit" <<endl;          /* Printin the
                                         * the text between "" and jumping to
@@ -25,6 +33,9 @@ Answer = 5 * (Value1 - 32)/9;       /*Makes the conversion from Farenheit to
                                       */
 
 cout << "A temperature of "; cout << Value1; cout << " degrees Fahrenheit is ";
+
+cout.precision(6);     // Comand to set the number of figures in printing
+
 cout << Answer; cout << " in Celsus." <<endl; /* Using ; to separate each
                                                 cout comand, with the exception
                                                 of endl which needs no ; prior
