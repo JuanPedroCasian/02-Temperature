@@ -80,6 +80,8 @@ if (Answer <= 100) {     /* first time using if conditioning comand, it is
   cout << "Which means water does boil at this temperature (under typical conditions)."
   <<endl;           //action if condition is false
 
+return 0;
+
 }
 
 
